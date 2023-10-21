@@ -1,0 +1,14 @@
+﻿<Window x:Class="GGE_EDITOR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GGE_EDITOR"
+        xmlns:editors="clr-namespace:GGE_EDITOR.Editors"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="GanjGameEditor" Height="720" Width="1280"
+        Style="{StaticResource GanjGameEngineWindowStyle}">
+    <Grid>
+        <editors:WorldEditorView/>
+    </Grid>
+</Window>

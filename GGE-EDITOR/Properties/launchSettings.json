@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GGE-EDITOR": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
