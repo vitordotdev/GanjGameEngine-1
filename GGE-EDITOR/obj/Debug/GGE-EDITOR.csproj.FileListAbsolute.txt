@@ -194,3 +194,11 @@ D:\_GanjGameStudios\GanjGameEngine\0-GanjGameEngine_Oficial_Project\GGE\GGE-EDIT
 D:\_GanjGameStudios\GanjGameEngine\0-GanjGameEngine_Oficial_Project\GGE\GGE-EDITOR\obj\Debug\GGE-EDITOR.dll
 D:\_GanjGameStudios\GanjGameEngine\0-GanjGameEngine_Oficial_Project\GGE\GGE-EDITOR\obj\Debug\GGE-EDITOR.pdb
 D:\_GanjGameStudios\GanjGameEngine\0-GanjGameEngine_Oficial_Project\GGE\GGE-EDITOR\obj\Debug\GGE-EDITOR.genruntimeconfig.cache
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Dictionaries\ControlTemplates.g.cs
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Editors\WorldEditor\GameEntityView.g.cs
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Utilities\LoggerView.g.cs
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\App.baml
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Dictionaries\ControlTemplates.baml
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Dictionaries\EditorColors.baml
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Editors\WorldEditor\GameEntityView.baml
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Utilities\LoggerView.baml
