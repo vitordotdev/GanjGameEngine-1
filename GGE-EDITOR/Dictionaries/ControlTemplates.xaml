@@ -495,10 +495,10 @@
                                 <ColumnDefinition x:Name="columnDefinition3"/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
-                                <RowDefinition x:Name="RowDefinition0"/>
-                                <RowDefinition x:Name="RowDefinition1"/>
-                                <RowDefinition x:Name="RowDefinition2"/>
-                                <RowDefinition x:Name="RowDefinition3"/>
+                                <RowDefinition x:Name="rowDefinition0"/>
+                                <RowDefinition x:Name="rowDefinition1"/>
+                                <RowDefinition x:Name="rowDefinition2"/>
+                                <RowDefinition x:Name="rowDefinition3"/>
                             </Grid.RowDefinitions>
                             <utl:NumberBox x:Name="nbX" Foreground="{StaticResource Editor.RedBrush}" Value="{Binding X, RelativeSource={RelativeSource TemplatedParent}}" ToolTip="X Value"/>
                             <utl:NumberBox x:Name="nbY" Foreground="{StaticResource Editor.GreenBrush}" Value="{Binding Y, RelativeSource={RelativeSource TemplatedParent}}" ToolTip="Y Value"/>

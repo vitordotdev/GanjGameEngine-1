@@ -57,7 +57,7 @@ namespace GGE_EDITOR.Utilities.Controls
             e.Handled = true;
 
             _mouseXStart = e.GetPosition(this).X;
-            
+
         }
 
         private void OnTextBlock_Mouse_LBU(object sender, MouseButtonEventArgs e)
@@ -98,7 +98,7 @@ namespace GGE_EDITOR.Utilities.Controls
 
         static NumberBox()
         {
-            DefaultStyleKeyProperty.OverrideMetadata(typeof(NumberBox), 
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(NumberBox),
                     new FrameworkPropertyMetadata(typeof(NumberBox)));
         }
     }
