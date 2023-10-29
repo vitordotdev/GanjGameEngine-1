@@ -30,9 +30,10 @@ namespace GGE_EDITOR.Editors
         {
             Loaded -= OnWorldEditorViewLoaded;
             Focus();
-            ((INotifyCollectionChanged)Project.UndoRedo.UndoList).CollectionChanged += (s, e) => Focus();
+            //((INotifyCollectionChanged)Project.UndoRedo.UndoList).CollectionChanged += (s, e) => Focus();
         }
 
+        // This essential to use a view editor
         private void ProjectLayoutView_Loaded(object sender, RoutedEventArgs e)
         {
 
