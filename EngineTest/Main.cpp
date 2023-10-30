@@ -13,18 +13,18 @@
 
 #endif
 
-int main()
+int main ( )
 {
 #if _DEBUG
-	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+	_CrtSetDbgFlag (_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 #endif
 
-	engine_test test{ };
+	engine_test test { };
 
-	if (test.initialize())
+	if (test.initialize ( ))
 	{
-		test.run();
+		test.run ( );
 	}
 
-	test.shutdown();
+	test.shutdown ( );
 }

@@ -167,7 +167,6 @@ D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\x64\Debug\GGE-EDITOR.runtime
 D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\x64\Debug\GGE-EDITOR.runtimeconfig.dev.json
 D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\x64\Debug\GGE-EDITOR.dll
 D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\x64\Debug\GGE-EDITOR.pdb
-D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\GGE-EDITOR.csproj.AssemblyReference.cache
 D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Dictionaries\ControlTemplates.g.cs
 D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Editors\WorldEditor\ComponentView.g.cs
 D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Editors\WorldEditor\GameEntityView.g.cs
