@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\______GANJGAMESTUDIOS\\GanjGameEngine\\GGE-C++\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj": {}
+    "D:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj": {}
   },
   "projects": {
-    "D:\\______GANJGAMESTUDIOS\\GanjGameEngine\\GGE-C++\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj": {
+    "D:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\______GANJGAMESTUDIOS\\GanjGameEngine\\GGE-C++\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
+        "projectUniqueName": "D:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
         "projectName": "GGE-EDITOR",
-        "projectPath": "D:\\______GANJGAMESTUDIOS\\GanjGameEngine\\GGE-C++\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
+        "projectPath": "D:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
         "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "D:\\______GANJGAMESTUDIOS\\GanjGameEngine\\GGE-C++\\GGE\\GGE-EDITOR\\obj\\",
+        "outputPath": "D:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

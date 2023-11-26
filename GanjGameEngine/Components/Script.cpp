@@ -29,6 +29,14 @@ namespace GanjGameEngine::script
 
 	} // anonymous namespace
 
+	namespace detail
+	{
+		u8 register_script(size_t tag, script_creator func)
+		{
+
+		}
+	} // namespace detail
+
 	component create(init_info info, game_entity::entity entity)
 	{
 		assert(entity.is_valid());

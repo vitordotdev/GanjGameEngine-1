@@ -56,6 +56,7 @@ namespace GanjGameEngine
 		{
 			using script_ptr = std::unique_ptr<entity_script>;
 			using script_creator = script_ptr(*)( game_entity::entity entity );
+			u8 register_script(size_t, script_creator);
 
 			template<class script_class>
 			script_ptr create_script(game_entity::entity entity)
