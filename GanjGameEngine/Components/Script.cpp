@@ -15,6 +15,17 @@ namespace GanjGameEngine::script
 		utl::vector<id::generation_type>	generations;
 		utl::vector<script_id>				free_ids;
 
+		using script_registery = std::unordered_map<size_t, detail::script_creator>;
+
+		script_registery &registery()
+		{
+			// NOTE: We put this static variable in a function because of the initialization order pf static data. This way, we can be certain that the data is initialized
+			//		 before acessing it.
+			static script_registery reg;
+			return reg;
+		}
+		script_registery reg;
+
 		bool exists(script_id id)
 		{
 			assert(id::is_valid(id));
@@ -33,7 +44,9 @@ namespace GanjGameEngine::script
 	{
 		u8 register_script(size_t tag, script_creator func)
 		{
-
+			bool result { registery().insert(script_registery::value_type{tag, func}).second };
+			assert(result);
+			return result;
 		}
 	} // namespace detail
 

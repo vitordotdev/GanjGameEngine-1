@@ -61,7 +61,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\_GanjGameStudios\GanjGameEngine\0-GanjGameEngine_Oficial_Project\GGE\GanjGameEngine\EngineAPI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GanjGameEngine\EngineAPI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>GameEntity.h</ForcedIncludeFiles>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <CallingConvention>FastCall</CallingConvention>
@@ -70,7 +70,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>GanjGameEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:\_GanjGameStudios\GanjGameEngine\0-GanjGameEngine_Oficial_Project\GGE\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

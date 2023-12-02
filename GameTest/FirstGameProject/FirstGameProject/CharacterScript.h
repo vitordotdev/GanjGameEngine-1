@@ -3,14 +3,7 @@
 
 namespace first_game_project
 {
-	class character_script;
-	namespace
-	{
-		u8 _reg_character_script
-		{
-			register_script(std::hash<std::string>()( "character_script" ), &GanjGameEngine::script::detail::create_script<character_script>)
-		};
-	}
+	REGISTER_SCRIPT(character_script);
 
 	class character_script : public GanjGameEngine::script::entity_script
 	{

@@ -42,31 +42,29 @@ namespace GanjGameEngine
 			constexpr explicit entity_script(game_entity::entity entity)
 				: game_entity::entity{ entity.get_id() } {}
 		};
-		/*
-		class my_player_character : public entity_script
-		{
-			public:
-			void update (float dt) override
+			namespace detail
 			{
-				// Do player character update
-			}
-		};
-		*/
-		namespace detail
-		{
-			using script_ptr = std::unique_ptr<entity_script>;
-			using script_creator = script_ptr(*)( game_entity::entity entity );
-			u8 register_script(size_t, script_creator);
+				using script_ptr = std::unique_ptr<entity_script>;
+				using script_creator = script_ptr(*)( game_entity::entity entity );
+				using string_hash = std::hash<std::string>;
 
-			template<class script_class>
-			script_ptr create_script(game_entity::entity entity)
-			{
-				assert(entity.is_valid());
-				// create an instance of the script and return a pointer to the script
-				return std::make_unique<script_class>(entity);
-			}
-		} // Namespace detail
+				u8 register_script(size_t, script_creator);
 
+				template<class script_class>
+				script_ptr create_script(game_entity::entity entity)
+				{
+					assert(entity.is_valid());
+					// create an instance of the script and return a pointer to the script
+					return std::make_unique<script_class>(entity);
+				}
+			#define REGISTER_SCRIPT(TYPE)																\
+				class TYPE;																				\
+				namespace {																				\
+				const u8 _reg##TYPE																		\
+				{	GanjGameEngine::script::detail::register_script(									\
+								std::hash<std::string>()(#TYPE),										\
+								&GanjGameEngine::script::detail::create_script<TYPE>) };				\
+				}
+			}// Namespace detail
 	} // Namespace Script
-
 }

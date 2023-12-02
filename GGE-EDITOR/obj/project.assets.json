@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
+      "projectUniqueName": "D:\\______GANJGAMESTUDIOS\\GanjGameEngine\\GGE-C++\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
       "projectName": "GGE-EDITOR",
-      "projectPath": "D:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
+      "projectPath": "D:\\______GANJGAMESTUDIOS\\GanjGameEngine\\GGE-C++\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
       "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-      "outputPath": "D:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\obj\\",
+      "outputPath": "D:\\______GANJGAMESTUDIOS\\GanjGameEngine\\GGE-C++\\GGE\\GGE-EDITOR\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
