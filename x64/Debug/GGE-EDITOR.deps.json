@@ -7,8 +7,28 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "GGE-EDITOR/1.0.0": {
+        "dependencies": {
+          "Interop.EnvDTE80": "8.0.0.0",
+          "Interop.EnvDTE": "8.0.0.0"
+        },
         "runtime": {
           "GGE-EDITOR.dll": {}
+        }
+      },
+      "Interop.EnvDTE80/8.0.0.0": {
+        "runtime": {
+          "Interop.EnvDTE80.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "Interop.EnvDTE/8.0.0.0": {
+        "runtime": {
+          "Interop.EnvDTE.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +36,16 @@
   "libraries": {
     "GGE-EDITOR/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.EnvDTE80/8.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.EnvDTE/8.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

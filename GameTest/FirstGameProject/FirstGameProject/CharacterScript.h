@@ -1,10 +1,6 @@
 #pragma once
-#include <string>
-
 namespace first_game_project
 {
-	REGISTER_SCRIPT(character_script);
-
 	class character_script : public GanjGameEngine::script::entity_script
 	{
 	public:

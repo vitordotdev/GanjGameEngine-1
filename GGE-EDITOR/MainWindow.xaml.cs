@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace GGE_EDITOR
 {
@@ -22,6 +22,8 @@ namespace GGE_EDITOR
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static string GanjGameEnginePath { get; private set; } = @"D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE";
+
         public MainWindow()
         {
             InitializeComponent();
@@ -32,7 +34,30 @@ namespace GGE_EDITOR
         private void OnMainWindowLoaded(object sender, RoutedEventArgs e)
         {
             Loaded -= OnMainWindowLoaded;
+            GetEnginePath();
             OpenProjectBrowserDialog();
+        }
+
+        private void GetEnginePath()
+        {
+            var GGEPath = Environment.GetEnvironmentVariable("GANJGAME_ENGINE", EnvironmentVariableTarget.User);
+            if (GGEPath == null || !Directory.Exists(Path.Combine(GGEPath, @"GanjGameEngine\EngineAPI\")))
+            {
+                var dlg = new GanjGameEnginePathDialog();
+                if (dlg.ShowDialog() == true)
+                {
+                    GGEPath = dlg.GGEPath;
+                    Environment.SetEnvironmentVariable("GANJGAME_ENGINE", GGEPath.ToUpper(), EnvironmentVariableTarget.User);
+                }
+                else
+                {
+                    Application.Current.Shutdown();
+                }
+            }
+            else
+            {
+                GanjGameEnginePath = GGEPath;
+            }
         }
 
         private void OnMainWindowClosing(object sender, CancelEventArgs e)

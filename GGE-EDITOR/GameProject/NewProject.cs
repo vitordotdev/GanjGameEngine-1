@@ -25,6 +25,7 @@ namespace GGE_EDITOR.GameProject
         public string IconFilePath { get; set; }
         public string ScreenshotFilePath { get; set; }
         public string ProjectFilePath { get; set; }
+        public string TemplatePath { get; set; }
     }
 
     class NewProject : ViewModelBase
@@ -109,9 +110,12 @@ namespace GGE_EDITOR.GameProject
                 File.Copy(template.ScreenshotFilePath, Path.GetFullPath(Path.Combine(dirInfo.FullName, "Screenshot.png")));
 
                 var projectXml = File.ReadAllText(template.ProjectFilePath);
-                projectXml = string.Format(projectXml, ProjectName, ProjectPath);
+                projectXml = string.Format(projectXml, ProjectName, path);
                 var projectPath = Path.GetFullPath(Path.Combine(path, $"{ProjectName}{Project.Extension}"));
                 File.WriteAllText(projectPath, projectXml);
+
+                CreateMSVCSolution(template, path);
+
                 return path;
             }
             catch (Exception ex)
@@ -121,6 +125,28 @@ namespace GGE_EDITOR.GameProject
 
                 throw;
             }
+        }
+
+        private void CreateMSVCSolution(ProjectTemplate template, string projectPath)
+        {
+            Debug.Assert(File.Exists(Path.Combine(template.TemplatePath, "MSVCSolution")));
+            Debug.Assert(File.Exists(Path.Combine(template.TemplatePath, "MSVCProject")));
+
+            var engineAPIPath = Path.Combine(MainWindow.GanjGameEnginePath, @"GanjGameEngine\EngineAPI\");
+            Debug.Assert(Directory.Exists(engineAPIPath));
+
+            var _0 = ProjectName;
+            var _1 = "{" + Guid.NewGuid().ToString().ToUpper() + "}";
+            var _2 = engineAPIPath;
+            var _3 = MainWindow.GanjGameEnginePath;
+
+            var solution = File.ReadAllText(Path.Combine(template.TemplatePath, "MSVCSolution"));
+            solution = string.Format(solution, _0, _1, "{" + Guid.NewGuid().ToString().ToUpper() + "}");
+            File.WriteAllText(Path.GetFullPath(Path.Combine(projectPath, $"{_0}.sln")), solution);
+
+            var project = File.ReadAllText(Path.Combine(template.TemplatePath, "MSVCProject"));
+            project = string.Format(project, _0, _1, _2, _3);
+            File.WriteAllText(Path.GetFullPath(Path.Combine(projectPath, $@"GameCode\{_0}.vcxproj")), project);
         }
 
         public NewProject()
@@ -134,12 +160,13 @@ namespace GGE_EDITOR.GameProject
                 foreach (var file in templatesFiles)
                 {
                     var template = Serializer.FromFile<ProjectTemplate>(file);
-
-                    template.IconFilePath = Path.GetFullPath(Path.Combine(Path.GetDirectoryName(file), "Icon.png"));
+                    template.TemplatePath = Path.GetDirectoryName(file);
+                    template.IconFilePath = Path.GetFullPath(Path.Combine(template.TemplatePath, "Icon.png"));
                     template.Icon = File.ReadAllBytes(template.IconFilePath);
-                    template.ScreenshotFilePath = Path.GetFullPath(Path.Combine(Path.GetDirectoryName(file), "Screenshot.png"));
+                    template.ScreenshotFilePath = Path.GetFullPath(Path.Combine(template.TemplatePath, "Screenshot.png"));
                     template.Screenshot = File.ReadAllBytes(template.ScreenshotFilePath);
-                    template.ProjectFilePath = Path.GetFullPath(Path.Combine(Path.GetDirectoryName(file), template.ProjectFile));
+                    template.ProjectFilePath = Path.GetFullPath(Path.Combine(template.TemplatePath, template.ProjectFile));
+                    
 
                     _projectTemplates.Add(template);
                 }

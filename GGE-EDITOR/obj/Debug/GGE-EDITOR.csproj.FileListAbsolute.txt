@@ -210,3 +210,10 @@ D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\GGE-EDI
 D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\GGE-EDITOR.dll
 D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\GGE-EDITOR.pdb
 D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\GGE-EDITOR.genruntimeconfig.cache
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\GanjGameEnginePathDialog.g.cs
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\GanjGameEnginePathDialog.baml
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Interop.EnvDTE80.dll
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\Interop.EnvDTE.dll
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\GGE-EDITOR.csproj.ResolveComReference.cache
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\GameDev\NewScriptDialog.g.cs
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Debug\GameDev\NewScriptDialog.baml

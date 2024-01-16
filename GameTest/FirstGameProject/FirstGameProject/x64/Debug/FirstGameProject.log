@@ -1,2 +1,3 @@
 ﻿  CharacterScript.cpp
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GameTest\FirstGameProject\FirstGameProject\CharacterScript.cpp(6,38): warning C4100: 'dt': parâmetro formal não referenciado
   FirstGameProject.vcxproj -> D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GameTest\FirstGameProject\x64\Debug\FirstGameProject.exe

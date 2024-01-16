@@ -1,4 +1,5 @@
-﻿using GGE_EDITOR.GameProject;
+﻿using GGE_EDITOR.GameDev;
+using GGE_EDITOR.GameProject;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -37,6 +38,11 @@ namespace GGE_EDITOR.Editors
         private void ProjectLayoutView_Loaded(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void On_NewScript_Button_Click(object sender, RoutedEventArgs e)
+        {
+            new NewScriptDialog().ShowDialog();
         }
     }
 }
