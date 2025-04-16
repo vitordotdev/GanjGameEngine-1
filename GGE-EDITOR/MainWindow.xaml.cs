@@ -22,7 +22,7 @@ namespace GGE_EDITOR
     /// </summary>
     public partial class MainWindow : Window
     {
-        public static string GanjGameEnginePath { get; private set; } = @"D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE";
+        public static string GanjGameEnginePath { get; private set; }
 
         public MainWindow()
         {

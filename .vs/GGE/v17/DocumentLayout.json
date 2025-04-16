@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|f:\\_ganjgamestudios\\ganjgameengine\\0-ganjgameengine_oficial_project\\gge\\gge-editor\\gameproject\\openprojectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|solutionrelative:gge-editor\\gameproject\\openprojectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|f:\\_ganjgamestudios\\ganjgameengine\\0-ganjgameengine_oficial_project\\gge\\gge-editor\\editors\\worldeditor\\worldeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|solutionrelative:gge-editor\\editors\\worldeditor\\worldeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|f:\\_ganjgamestudios\\ganjgameengine\\0-ganjgameengine_oficial_project\\gge\\gge-editor\\gge-editor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|solutionrelative:gge-editor\\gge-editor.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|f:\\_ganjgamestudios\\ganjgameengine\\0-ganjgameengine_oficial_project\\gge\\gge-editor\\dictionaries\\controltemplates.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|solutionrelative:gge-editor\\dictionaries\\controltemplates.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|f:\\_ganjgamestudios\\ganjgameengine\\0-ganjgameengine_oficial_project\\gge\\gge-editor\\dictionaries\\editorcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|solutionrelative:gge-editor\\dictionaries\\editorcolors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|f:\\_ganjgamestudios\\ganjgameengine\\0-ganjgameengine_oficial_project\\gge\\gge-editor\\gameproject\\newprojectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|solutionrelative:gge-editor\\gameproject\\newprojectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|f:\\_ganjgamestudios\\ganjgameengine\\0-ganjgameengine_oficial_project\\gge\\gge-editor\\gameproject\\openprojectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|solutionrelative:gge-editor\\gameproject\\openprojectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|f:\\_ganjgamestudios\\ganjgameengine\\0-ganjgameengine_oficial_project\\gge\\gge-editor\\gameproject\\projectbrowserdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|solutionrelative:gge-editor\\gameproject\\projectbrowserdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|f:\\_ganjgamestudios\\ganjgameengine\\0-ganjgameengine_oficial_project\\gge\\gge-editor\\gameproject\\projectbrowserdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|solutionrelative:gge-editor\\gameproject\\projectbrowserdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|f:\\_ganjgamestudios\\ganjgameengine\\0-ganjgameengine_oficial_project\\gge\\gge-editor\\dictionaries\\controltemplates.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A230B4D3-AA50-4D98-A895-735ECFA0CA1F}|GGE-EDITOR\\GGE-EDITOR.csproj|solutionrelative:gge-editor\\dictionaries\\controltemplates.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GGE-EDITOR",
+              "DocumentMoniker": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
+              "RelativeDocumentMoniker": "GGE-EDITOR\\GGE-EDITOR.csproj",
+              "ToolTip": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
+              "RelativeToolTip": "GGE-EDITOR\\GGE-EDITOR.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-31T13:32:44.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorldEditorView.xaml",
+              "DocumentMoniker": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\Editors\\WorldEditor\\WorldEditorView.xaml",
+              "RelativeDocumentMoniker": "GGE-EDITOR\\Editors\\WorldEditor\\WorldEditorView.xaml",
+              "ToolTip": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\Editors\\WorldEditor\\WorldEditorView.xaml",
+              "RelativeToolTip": "GGE-EDITOR\\Editors\\WorldEditor\\WorldEditorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T13:32:44.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectBrowserDialog.xaml",
+              "DocumentMoniker": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GameProject\\ProjectBrowserDialog.xaml",
+              "RelativeDocumentMoniker": "GGE-EDITOR\\GameProject\\ProjectBrowserDialog.xaml",
+              "ToolTip": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GameProject\\ProjectBrowserDialog.xaml",
+              "RelativeToolTip": "GGE-EDITOR\\GameProject\\ProjectBrowserDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T13:32:44.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OpenProjectView.xaml",
+              "DocumentMoniker": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GameProject\\OpenProjectView.xaml",
+              "RelativeDocumentMoniker": "GGE-EDITOR\\GameProject\\OpenProjectView.xaml",
+              "ToolTip": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GameProject\\OpenProjectView.xaml",
+              "RelativeToolTip": "GGE-EDITOR\\GameProject\\OpenProjectView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T13:32:44.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OpenProjectView.xaml.cs",
+              "DocumentMoniker": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GameProject\\OpenProjectView.xaml.cs",
+              "RelativeDocumentMoniker": "GGE-EDITOR\\GameProject\\OpenProjectView.xaml.cs",
+              "ToolTip": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GameProject\\OpenProjectView.xaml.cs",
+              "RelativeToolTip": "GGE-EDITOR\\GameProject\\OpenProjectView.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAxwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:32:44.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ControlTemplates.xaml",
+              "DocumentMoniker": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\Dictionaries\\ControlTemplates.xaml",
+              "RelativeDocumentMoniker": "GGE-EDITOR\\Dictionaries\\ControlTemplates.xaml",
+              "ToolTip": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\Dictionaries\\ControlTemplates.xaml",
+              "RelativeToolTip": "GGE-EDITOR\\Dictionaries\\ControlTemplates.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T13:32:44.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditorColors.xaml",
+              "DocumentMoniker": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\Dictionaries\\EditorColors.xaml",
+              "RelativeDocumentMoniker": "GGE-EDITOR\\Dictionaries\\EditorColors.xaml",
+              "ToolTip": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\Dictionaries\\EditorColors.xaml",
+              "RelativeToolTip": "GGE-EDITOR\\Dictionaries\\EditorColors.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T13:32:44.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewProjectView.xaml",
+              "DocumentMoniker": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GameProject\\NewProjectView.xaml",
+              "RelativeDocumentMoniker": "GGE-EDITOR\\GameProject\\NewProjectView.xaml",
+              "ToolTip": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GameProject\\NewProjectView.xaml",
+              "RelativeToolTip": "GGE-EDITOR\\GameProject\\NewProjectView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-31T13:32:44.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectBrowserDialog.xaml.cs",
+              "DocumentMoniker": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GameProject\\ProjectBrowserDialog.xaml.cs",
+              "RelativeDocumentMoniker": "GGE-EDITOR\\GameProject\\ProjectBrowserDialog.xaml.cs",
+              "ToolTip": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\GameProject\\ProjectBrowserDialog.xaml.cs",
+              "RelativeToolTip": "GGE-EDITOR\\GameProject\\ProjectBrowserDialog.xaml.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwFoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:32:44.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ControlTemplates.xaml.cs",
+              "DocumentMoniker": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\Dictionaries\\ControlTemplates.xaml.cs",
+              "RelativeDocumentMoniker": "GGE-EDITOR\\Dictionaries\\ControlTemplates.xaml.cs",
+              "ToolTip": "F:\\_GanjGameStudios\\GanjGameEngine\\0-GanjGameEngine_Oficial_Project\\GGE\\GGE-EDITOR\\Dictionaries\\ControlTemplates.xaml.cs",
+              "RelativeToolTip": "GGE-EDITOR\\Dictionaries\\ControlTemplates.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:32:44.616Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

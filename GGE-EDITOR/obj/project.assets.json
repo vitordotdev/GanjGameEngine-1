@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\vitor\\.nuget\\packages\\": {}
+    "C:\\Users\\VITOR-PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "D:\\______GANJGAMESTUDIOS\\GanjGameEngine\\GGE-C++\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
       "projectName": "GGE-EDITOR",
       "projectPath": "D:\\______GANJGAMESTUDIOS\\GanjGameEngine\\GGE-C++\\GGE\\GGE-EDITOR\\GGE-EDITOR.csproj",
-      "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\VITOR-PC\\.nuget\\packages\\",
       "outputPath": "D:\\______GANJGAMESTUDIOS\\GanjGameEngine\\GGE-C++\\GGE\\GGE-EDITOR\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\VITOR-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

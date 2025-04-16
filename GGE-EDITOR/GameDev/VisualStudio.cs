@@ -13,9 +13,13 @@ namespace GGE_EDITOR.GameDev
 {
     static class VisualStudio
     {
+        public static bool BuildSuceeded { get; private set; } = true;
+        public static bool BuildDone { get; private set; } = true;
+
         private static EnvDTE80.DTE2 _vsInstance = null;
         private static readonly string _progID = "VisualStudio.DTE.16.0";
         public const string vsViewKindTextView = "{7651A703-06E5-11D1-8EBD-00A0C90F26EA}";
+
 
         [DllImport("ole32.dll")]
         private static extern int CreateBindCtx(uint reserved, out IBindCtx ppbc);
@@ -95,6 +99,87 @@ namespace GGE_EDITOR.GameDev
             }
 
             _vsInstance?.Quit();
+        }
+        private static void OnBuildSolutionBegin(string project, string ProjectConfig, string platform, string solutionConfig)
+        {
+            Logger.Log(MessageType.Info, $"Building {project}, {ProjectConfig}, {platform}, {solutionConfig}");
+        }
+
+        private static void OnBuildSolutionDone(string project, string ProjectConfig, string Platform, string solutionConfig, bool success)
+        {
+            if (BuildDone) return;
+
+            if (success) Logger.Log(MessageType.Info, $"Building {ProjectConfig} configuration suceeded");
+            else Logger.Log(MessageType.Error, $"Building {ProjectConfig} configuration failed");
+
+            BuildDone = true;
+            BuildSuceeded = success;
+        }
+
+        public static bool IsDebugging()
+        {
+            bool result = false;
+
+            for(int i = 0; i < 3; ++i)
+            {
+                try
+                {
+                    result = _vsInstance != null &&
+                        (_vsInstance.Debugger.CurrentProgram != null || _vsInstance.Debugger.CurrentMode == EnvDTE.dbgDebugMode.dbgRunMode);
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex.Message);
+                    if (!result) System.Threading.Thread.Sleep(1000);
+                }
+
+            }
+            return result;
+        }
+
+        public static void BuildSolution(GameProject.Project project, string configName, bool showWindow = true)
+        {
+            if (IsDebugging())
+            {
+                Logger.Log(MessageType.Error, "Visual studio is currenty running a process now!");
+                return;
+            }
+
+            OpenVisualStudio(project.Solution);
+            BuildDone = BuildSuceeded = false;
+
+            for (int i = 0; i < 3; ++i)
+            {
+                try
+                {
+                    if (!_vsInstance.Solution.IsOpen) _vsInstance.Solution.Open(project.Solution);
+                    _vsInstance.MainWindow.Visible = showWindow;
+
+                    _vsInstance.Events.BuildEvents.OnBuildProjConfigBegin += OnBuildSolutionBegin;
+                    _vsInstance.Events.BuildEvents.OnBuildProjConfigDone += OnBuildSolutionDone;
+
+                    try
+                    {
+                        foreach (var pdbFiles in Directory.GetFiles(Path.Combine($"{project.Path}", $@"x64\{configName}"), "*.pdb"))
+                        {
+                            File.Delete(pdbFiles);
+                        }
+                    }
+                    catch(Exception ex)
+                    {
+                        Debug.WriteLine(ex.Message);
+                    }
+
+                    _vsInstance.Solution.SolutionBuild.SolutionConfigurations.Item(configName).Activate();
+                    _vsInstance.ExecuteCommand("Build.BuildSolution");
+                }
+                catch (Exception ex)
+                {
+                    Debug.Write(ex.Message);
+                    Debug.Write($"Attempt {i}: Failed to build {project.Name}");
+                    System.Threading.Thread.Sleep(1000);
+                }
+            }
         }
 
         public static bool AddFilesToSolution(string solution, string projectName, string[] files)

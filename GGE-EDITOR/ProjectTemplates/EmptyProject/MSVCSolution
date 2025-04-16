@@ -15,12 +15,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1}.Debug|x64.ActiveCfg = Debug|x64
 		{1}.Debug|x64.Build.0 = Debug|x64
-		{1}.DebugEditor|x64.ActiveCfg = Debug|x64
-		{1}.DebugEditor|x64.Build.0 = Debug|x64
+		{1}.DebugEditor|x64.ActiveCfg = DebugEditor|x64
+		{1}.DebugEditor|x64.Build.0 = DebugEditor|x64
 		{1}.Release|x64.ActiveCfg = Debug|x64
 		{1}.Release|x64.Build.0 = Debug|x64
-		{1}.ReleaseEditor|x64.ActiveCfg = Debug|x64
-		{1}.ReleaseEditor|x64.Build.0 = Debug|x64
+		{1}.ReleaseEditor|x64.ActiveCfg = ReleaseEditor|x64
+		{1}.ReleaseEditor|x64.Build.0 = ReleaseEditor|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

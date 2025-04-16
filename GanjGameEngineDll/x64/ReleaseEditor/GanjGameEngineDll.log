@@ -1,0 +1,9 @@
+﻿  dllmain.cpp
+  EntityAPI.cpp
+  GanjGameEngineAPI.cpp
+     Criando biblioteca D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\x64\ReleaseEditor\GanjGameEngineDll.lib e objeto D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\x64\ReleaseEditor\GanjGameEngineDll.exp
+  Gerando código
+  Previous IPDB not found, fall back to full compilation.
+  All 579 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finalizada a geração de código
+  GanjGameEngineDll.vcxproj -> D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\x64\ReleaseEditor\GanjGameEngineDll.dll

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\_GanjGameStudios\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Release\
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\obj\Release\
 GGE_EDITOR
 none
 false
 TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
-D:\_GanjGameStudios\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\App.xaml
-11-1968786915
+D:\______GANJGAMESTUDIOS\GanjGameEngine\GGE-C++\GGE\GGE-EDITOR\App.xaml
+15-367947631
 
-28-1784573375
-192-1533232326
-Dictionaries\ControlTemplates.xaml;Dictionaries\EditorColors.xaml;Editors\WorldEditor\GameEntityView.xaml;Editors\WorldEditor\ProjectLayoutView.xaml;Editors\WorldEditor\WorldEditorView.xaml;GameProject\NewProjectView.xaml;GameProject\OpenProjectView.xaml;GameProject\ProjectBrowserDialog.xaml;MainWindow.xaml;Utilities\LoggerView.xaml;Utilities\UndoRedoView.xaml;
+36-1658058117
+194-916246980
+Dictionaries\ControlTemplates.xaml;Dictionaries\EditorColors.xaml;Editors\WorldEditor\ComponentView.xaml;Editors\WorldEditor\GameEntityView.xaml;Editors\WorldEditor\ProjectLayoutView.xaml;Editors\WorldEditor\TransformView.xaml;Editors\WorldEditor\WorldEditorView.xaml;GameDev\NewScriptDialog.xaml;GameProject\NewProjectView.xaml;GameProject\OpenProjectView.xaml;GameProject\ProjectBrowserDialog.xaml;GanjGameEnginePathDialog.xaml;MainWindow.xaml;Utilities\LoggerView.xaml;Utilities\UndoRedoView.xaml;
 
-False
+True
 

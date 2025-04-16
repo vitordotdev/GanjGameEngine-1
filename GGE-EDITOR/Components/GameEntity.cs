@@ -30,12 +30,12 @@ namespace GGE_EDITOR.Components
 
                     if (_isActive)
                     {
-                        EntityId = GanjGameEngineAPI.CreateGameEntity(this);
+                        EntityId = GanjGameEngineAPI.EntityAPI.CreateGameEntity(this);
                         Debug.Assert(ID.IsValid(_entityId));
                     }
                     else if(ID.IsValid(EntityId))
                     {
-                        GanjGameEngineAPI.RemoveGameEntity(this);
+                        GanjGameEngineAPI.EntityAPI.RemoveGameEntity(this);
                         EntityId = ID.INVALID_ID;
                     }
 

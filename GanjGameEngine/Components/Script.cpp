@@ -74,7 +74,7 @@ namespace GanjGameEngine::script
 
 		assert(id::is_valid(id));
 
-		const id::id_type index{ ( id::id_type ) entity_scripts.size() };
+		const id::id_type index{ ( id::id_type ) entity_scripts.size()};
 		entity_scripts.emplace_back(info.script_creator(entity));
 		
 		assert(entity_scripts.back()->get_id() == entity.get_id());

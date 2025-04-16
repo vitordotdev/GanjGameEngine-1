@@ -2,6 +2,45 @@
  Developed by Vitor Felipe Ramos Mello - Copyright © GanjGameStudio - 2023
 */
 
+#include "CommonHeaders.h"
+#include "Common.h"
+
+#ifndef WIN32_MEAN_AND_LEAN
+#define WIN32_MEAN_AND_LEAN
+#endif
+
+#include <Windows.h>
+using namespace GanjGameEngine;
+
+namespace {
+
+	HMODULE game_code_dll{ nullptr };
+
+} // Anonymous namespace
+
+EDITOR_INTERFACE u32
+LoadGameCodeDll(const char* dll_path)
+{
+	if (game_code_dll) return FALSE;
+	game_code_dll = LoadLibraryA(dll_path);
+	assert(game_code_dll);
+
+	return game_code_dll ? TRUE : FALSE;
+}
+
+EDITOR_INTERFACE u32
+UnloadGameCodeDll()
+{
+	if (!game_code_dll) return FALSE;
+	assert(game_code_dll);
+	int result{ FreeLibrary(game_code_dll) };
+	assert(result);
+
+	game_code_dll = nullptr;
+	return TRUE;
+}
+
+/*
 #ifndef EDITOR_INTERFACE
 #define EDITOR_INTERFACE extern "C" __declspec(dllexport)
 #endif // !EDITOR_INTERFACE
@@ -74,4 +113,4 @@ void RemoveGameEntity(id::id_type id)
 {
 	assert(id::is_valid(id));
 	game_entity::remove(game_entity::entity_id{ id });
-}
+}*/

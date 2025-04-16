@@ -87,7 +87,7 @@ namespace GGE_EDITOR.Utilities.Controls
                 {
                     if (Keyboard.Modifiers.HasFlag(ModifierKeys.Control)) _multiplier = 0.01; // Slower, just modify the .000
                     else if (Keyboard.Modifiers.HasFlag(ModifierKeys.Shift)) _multiplier = 0.1; // Faster, just modify the 000.
-                    else _multiplier = 0.1; // Normal, default modify
+                    else _multiplier = 0.01; // Normal, default modify
                     var newValue = _originalValue + (d * _multiplier * Multiplier);
                     Value = newValue.ToString("0.#####");
                     _ValueChanged = true;
